@@ -5,12 +5,18 @@ $tertiaryBg: #93A8AC;
 $navbarBg: #DEA54B;
 $textWhite: #fff;
 
+
+
 body {
     background-color: blue;
 }
 
 .navbar {
     background-color: $navbarBg!important;
+}
+
+.main-container {
+    min-height: 80vh;
 }
 
 .footer {
@@ -28,9 +34,11 @@ body {
 
 .primaryBtn {
     width: 10rem;
-    height: 2rem;
+    height: 3rem;
     border: none;
     border-radius: 3rem;
     background-color: $primaryBtn;
     color: $textWhite;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
