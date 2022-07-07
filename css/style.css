@@ -23,10 +23,13 @@ body {
 .primaryBtn {
   width: 10rem;
   height: 3rem;
-  border: none;
+  border: 0.3rem solid #DEA54B;
   border-radius: 3rem;
-  background-color: #DEA54B;
-  color: #fff;
+  background-color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
+  color: #DEA54B;
+}
+.primaryBtn p {
+  margin-bottom: 0.1rem;
 }/*# sourceMappingURL=style.css.map */
