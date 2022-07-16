@@ -46,6 +46,10 @@ body {
   font-size: 2.5rem;
   padding: 1rem;
   color: #FDFFFC;
+  transition: 0.7s;
+}
+.bottom-footer ul li a i:hover {
+  transform: rotateY(360deg);
 }
 .bottom-footer h3 {
   font-size: 3rem;
