@@ -1,21 +1,29 @@
-$primaryBtn: #DEA54B;
-$primaryBg: #fff;
-$secondaryBg: #424B54;
-$tertiaryBg: #93A8AC;
-$navbarBg: #DEA54B;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+$primaryBtn: #3772FF;
+$primaryBg: #12130F;
+$secondaryBg: #FDFFFC;
+$tertiaryBg: #3772FF;
+$navbarBg: #3772FF;
 $textWhite: #fff;
-$textSecondary:#DEA54B;
+$textSecondary:#3772FF;
 
 body {
-    background-color: blue;
+    background-color: $primaryBg!important;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif!important;
+    overflow-x: hidden!important;
+    scroll-behavior: smooth;
 }
 
 .navbar {
     background-color: $navbarBg!important;
+    color: $textWhite!important;
 }
 
 .main-container {
     min-height: 80vh;
+    color: $textWhite;
 }
 
 // FOOTER
@@ -31,6 +39,19 @@ body {
 .bottom-footer {
      height: 10rem;
      background-color: $tertiaryBg;
+     ul {
+        li {
+            text-align: center;
+            list-style: none;
+            display: inline;
+            a {
+                i {
+                    font-size: 3rem;
+                    padding: 1rem;
+                }
+            }
+        }
+     }
 }
 
 // BTN
@@ -39,9 +60,9 @@ body {
     height: 3rem;
     border: .3rem solid $primaryBtn;
     border-radius: 3rem;
-    background-color: $primaryBg;
     font-weight: 700;
     font-size: 1.2rem;
+    background-color: $primaryBg;
     color: $textSecondary;
         p {
             margin-bottom: .1rem;

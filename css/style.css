@@ -1,34 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 body {
-  background-color: blue;
+  background-color: #12130F !important;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif !important;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
 }
 
 .navbar {
-  background-color: #DEA54B !important;
+  background-color: #3772FF !important;
+  color: #fff !important;
 }
 
 .main-container {
   min-height: 80vh;
+  color: #fff;
 }
 
 .top-footer {
   height: 3rem;
-  background-color: #424B54;
+  background-color: #FDFFFC;
 }
 
 .bottom-footer {
   height: 10rem;
-  background-color: #93A8AC;
+  background-color: #3772FF;
+}
+.bottom-footer ul li {
+  text-align: center;
+  list-style: none;
+  display: inline;
+}
+.bottom-footer ul li a i {
+  font-size: 3rem;
+  padding: 1rem;
 }
 
 .primaryBtn {
   width: 10rem;
   height: 3rem;
-  border: 0.3rem solid #DEA54B;
+  border: 0.3rem solid #3772FF;
   border-radius: 3rem;
-  background-color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
-  color: #DEA54B;
+  background-color: #12130F;
+  color: #3772FF;
 }
 .primaryBtn p {
   margin-bottom: 0.1rem;
