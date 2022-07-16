@@ -29,11 +29,21 @@ body {
 .bottom-footer ul li {
   text-align: center;
   list-style: none;
-  display: inline;
   margin-right: 1.7rem;
+  display: inline-block;
+}
+.bottom-footer ul li a {
+  width: 5rem;
+  height: 5em;
+  background-color: #3772FF;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 0.3rem solid #FDFFFC;
 }
 .bottom-footer ul li a i {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 1rem;
   color: #FDFFFC;
 }
