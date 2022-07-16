@@ -6,6 +6,7 @@ $tertiaryBg: #3772FF;
 $navbarBg: #3772FF;
 $textWhite: #fff;
 $textSecondary:#3772FF;
+$textTertiary: #12130F;
 
 body {
     background-color: $primaryBg!important;
@@ -42,6 +43,7 @@ body {
             text-align: center;
             list-style: none;
             display: inline;
+            margin-right: 1.7rem;
             a {
                 i {
                     font-size: 3rem;
@@ -55,29 +57,32 @@ body {
 
 form input,
 form textarea {
-    width: 80%;
+    width: 60%;
     background-color: $secondaryBg;
-    color: #212529;
+    color: $textTertiary;
+    font-weight: 500;
+    font-size: 1.3rem;
     outline: none;
     box-shadow: 5px 5px rgb(0 0 0 / 4%);
+    border-radius: .1rem;
 }
 
 form input {
     height: 3rem;
     border: none;
     margin-bottom: 2rem;
-    font-size: large;
 }
 
 form textarea {
     height: 10rem;
     margin-bottom: 2rem;
-    color: #212529;
+    color: $textTertiary;
     border: none;
 }
 
 form ::placeholder {
-    color: #212529;
+    color: $textTertiary;
+    padding-left: .3rem;
 }
 
 

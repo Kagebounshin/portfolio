@@ -29,6 +29,7 @@ body {
   text-align: center;
   list-style: none;
   display: inline;
+  margin-right: 1.7rem;
 }
 .bottom-footer ul li a i {
   font-size: 3rem;
@@ -38,37 +39,42 @@ body {
 
 form input,
 form textarea {
-  width: 80%;
+  width: 60%;
   background-color: #FDFFFC;
-  color: #212529;
+  color: #12130F;
+  font-weight: 500;
+  font-size: 1.3rem;
   outline: none;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.04);
+  border-radius: 0.1rem;
 }
 
 form input {
   height: 3rem;
   border: none;
   margin-bottom: 2rem;
-  font-size: large;
 }
 
 form textarea {
   height: 10rem;
   margin-bottom: 2rem;
-  color: #212529;
+  color: #12130F;
   border: none;
 }
 
 form ::-moz-placeholder {
-  color: #212529;
+  color: #12130F;
+  padding-left: 0.3rem;
 }
 
 form :-ms-input-placeholder {
-  color: #212529;
+  color: #12130F;
+  padding-left: 0.3rem;
 }
 
 form ::placeholder {
-  color: #212529;
+  color: #12130F;
+  padding-left: 0.3rem;
 }
 
 .primaryBtn {
