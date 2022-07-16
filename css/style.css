@@ -19,12 +19,10 @@ body {
 }
 
 .top-footer {
-  height: 3rem;
   background-color: #FDFFFC;
 }
 
 .bottom-footer {
-  height: 10rem;
   background-color: #3772FF;
 }
 .bottom-footer ul li {
@@ -35,6 +33,42 @@ body {
 .bottom-footer ul li a i {
   font-size: 3rem;
   padding: 1rem;
+  color: #fff;
+}
+
+form input,
+form textarea {
+  width: 80%;
+  background-color: #FDFFFC;
+  color: #212529;
+  outline: none;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.04);
+}
+
+form input {
+  height: 3rem;
+  border: none;
+  margin-bottom: 2rem;
+  font-size: large;
+}
+
+form textarea {
+  height: 10rem;
+  margin-bottom: 2rem;
+  color: #212529;
+  border: none;
+}
+
+form ::-moz-placeholder {
+  color: #212529;
+}
+
+form :-ms-input-placeholder {
+  color: #212529;
+}
+
+form ::placeholder {
+  color: #212529;
 }
 
 .primaryBtn {
