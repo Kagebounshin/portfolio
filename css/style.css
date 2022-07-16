@@ -10,12 +10,12 @@ body {
 
 .navbar {
   background-color: #3772FF !important;
-  color: #fff !important;
+  color: #FDFFFC !important;
 }
 
 .main-container {
   min-height: 80vh;
-  color: #fff;
+  color: #FDFFFC;
 }
 
 .top-footer {
@@ -24,6 +24,7 @@ body {
 
 .bottom-footer {
   background-color: #3772FF;
+  color: #FDFFFC;
 }
 .bottom-footer ul li {
   text-align: center;
@@ -34,17 +35,20 @@ body {
 .bottom-footer ul li a i {
   font-size: 3rem;
   padding: 1rem;
-  color: #fff;
+  color: #FDFFFC;
+}
+.bottom-footer h3 {
+  font-size: 3rem;
 }
 
 form input,
 form textarea {
   width: 60%;
-  background-color: #FDFFFC;
-  color: #12130F;
+  background-color: #3772FF;
+  color: #FDFFFC;
   font-weight: 500;
   font-size: 1.3rem;
-  outline: none;
+  outline: 0.3rem solid #FDFFFC;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.04);
   border-radius: 0.1rem;
 }
@@ -58,35 +62,64 @@ form input {
 form textarea {
   height: 10rem;
   margin-bottom: 2rem;
-  color: #12130F;
   border: none;
 }
 
 form ::-moz-placeholder {
-  color: #12130F;
+  color: #FDFFFC;
   padding-left: 0.3rem;
 }
 
 form :-ms-input-placeholder {
-  color: #12130F;
+  color: #FDFFFC;
   padding-left: 0.3rem;
 }
 
 form ::placeholder {
-  color: #12130F;
+  color: #FDFFFC;
   padding-left: 0.3rem;
 }
 
 .primaryBtn {
   width: 10rem;
   height: 3rem;
-  border: 0.3rem solid #3772FF;
+  border: 0.3rem solid #FDFFFC;
   border-radius: 3rem;
   font-weight: 700;
   font-size: 1.2rem;
   background-color: #12130F;
-  color: #3772FF;
+  color: #FDFFFC;
 }
 .primaryBtn p {
   margin-bottom: 0.1rem;
+}
+
+.primaryBtn:hover,
+.primaryBtn:active,
+.primaryBtn:focus {
+  background-color: #FDFFFC;
+  color: #12130F;
+  transition: 300ms ease-in-out;
+}
+
+.secondaryBtn {
+  width: 10rem;
+  height: 3rem;
+  border: 0.3rem solid #FDFFFC;
+  border-radius: 3rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  background-color: #3772FF;
+  color: #FDFFFC;
+}
+.secondaryBtn p {
+  margin-bottom: 0.1rem;
+}
+
+.secondaryBtn:hover,
+.secondaryBtn:active,
+.secondaryBtn:focus {
+  background-color: #FDFFFC;
+  color: #3772FF;
+  transition: 300ms ease-in-out;
 }/*# sourceMappingURL=style.css.map */

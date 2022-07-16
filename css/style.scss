@@ -1,26 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+// BTN
 $primaryBtn: #3772FF;
+$secoundaryBtn: #FDFFFC;
+
+// BACKROUNDS
 $primaryBg: #12130F;
 $secondaryBg: #FDFFFC;
 $tertiaryBg: #3772FF;
-$navbarBg: #3772FF;
-$textWhite: #fff;
+
+// TEXTS
+$textWhite: #FDFFFC;
 $textSecondary:#3772FF;
 $textTertiary: #12130F;
 
 body {
-    background-color: $primaryBg!important;
+    background-color: $primaryBg !important;
     padding: 0;
     margin: 0;
-    font-family: 'Lato', sans-serif!important;
-    overflow-x: hidden!important;
+    font-family: 'Lato', sans-serif !important;
+    overflow-x: hidden !important;
     scroll-behavior: smooth;
 }
 
+
+// NAVBAR
+
 .navbar {
-    background-color: $navbarBg!important;
-    color: $textWhite!important;
+    background-color: $tertiaryBg !important;
+    color: $textWhite !important;
 }
+
+// MAIN
 
 .main-container {
     min-height: 80vh;
@@ -29,16 +39,18 @@ body {
 
 // FOOTER
 
-.footer {
-}
+.footer {}
 
 .top-footer {
-    background-color: $secondaryBg ;
+    background-color: $secondaryBg;
+    // border-top: solid .3rem $tertiaryBg;
+    // border-bottom: solid .3rem $primaryBg; 
 }
 
 .bottom-footer {
-     background-color: $tertiaryBg;
-     ul {
+    background-color: $tertiaryBg;
+    color: $textWhite;
+    ul {
         li {
             text-align: center;
             list-style: none;
@@ -52,17 +64,20 @@ body {
                 }
             }
         }
-     }
+    }
+    h3 {
+        font-size: 3rem;
+    }
 }
 
 form input,
 form textarea {
     width: 60%;
-    background-color: $secondaryBg;
-    color: $textTertiary;
+    background-color: $tertiaryBg;
+    color: $textWhite;
     font-weight: 500;
     font-size: 1.3rem;
-    outline: none;
+    outline: .3rem solid $secondaryBg;
     box-shadow: 5px 5px rgb(0 0 0 / 4%);
     border-radius: .1rem;
 }
@@ -76,29 +91,57 @@ form input {
 form textarea {
     height: 10rem;
     margin-bottom: 2rem;
-    color: $textTertiary;
     border: none;
 }
 
 form ::placeholder {
-    color: $textTertiary;
+    color: $textWhite;
     padding-left: .3rem;
 }
-
-
-
 
 // BTN
 .primaryBtn {
     width: 10rem;
     height: 3rem;
-    border: .3rem solid $primaryBtn;
+    border: .3rem solid $secondaryBg;
     border-radius: 3rem;
     font-weight: 700;
     font-size: 1.2rem;
     background-color: $primaryBg;
+    color: $textWhite;
+
+    p {
+        margin-bottom: .1rem;
+    }
+}
+
+.primaryBtn:hover,
+.primaryBtn:active,
+.primaryBtn:focus {
+    background-color: $secondaryBg;
+    color: $textTertiary;
+    transition: 300ms ease-in-out;
+}
+
+.secondaryBtn {
+    width: 10rem;
+    height: 3rem;
+    border: .3rem solid $secoundaryBtn;
+    border-radius: 3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: $tertiaryBg;
+    color: $textWhite;
+
+    p {
+        margin-bottom: .1rem;
+    }
+}
+
+.secondaryBtn:hover,
+.secondaryBtn:active,
+.secondaryBtn:focus {
+    background-color: $secondaryBg;
     color: $textSecondary;
-        p {
-            margin-bottom: .1rem;
-        }
+    transition: 300ms ease-in-out;
 }
