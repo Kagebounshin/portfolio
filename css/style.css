@@ -9,13 +9,18 @@ body {
 }
 
 .navbar {
-  background-color: #3772FF !important;
+  background-color: #12130F !important;
   color: #FDFFFC !important;
+  border-bottom: solid 0.3rem #FDFFFC;
 }
 
 .main-container {
   min-height: 80vh;
   color: #FDFFFC;
+}
+
+.work-container {
+  min-height: 80vh;
 }
 
 .top-footer {
@@ -106,6 +111,10 @@ form ::placeholder {
 }
 .primaryBtn p {
   margin-bottom: 0.1rem;
+}
+.primaryBtn a {
+  text-decoration: none;
+  color: #FDFFFC;
 }
 
 .primaryBtn:hover,
