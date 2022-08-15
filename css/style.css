@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
 body {
   background-color: #12130F !important;
   padding: 0;
@@ -11,11 +13,14 @@ body {
 .navbar {
   background-color: #12130F !important;
   color: #FDFFFC !important;
-  border-bottom: solid 0.3rem #FDFFFC;
+}
+
+.navbar-brand {
+  font-family: "Oleo Script Swash Caps", cursive;
 }
 
 .main-container {
-  min-height: 80vh;
+  min-height: 100vh;
   color: #FDFFFC;
 }
 
