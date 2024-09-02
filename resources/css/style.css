@@ -8,6 +8,9 @@
   height: 70vh;
   margin-top: 5rem;
 }
+.intro-container ul {
+  display: inline-flex;
+}
 
 .contact-container {
   margin-bottom: 5rem;

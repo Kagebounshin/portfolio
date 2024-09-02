@@ -10,6 +10,10 @@ $primary-bg: rgba(124, 115, 115, 0.562);
 .intro-container {
     height: 70vh;
     margin-top: 5rem;
+    ul {
+        display: inline-flex;
+    }
+
 }
 
 .contact-container {
