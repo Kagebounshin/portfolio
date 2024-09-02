@@ -1,10 +1,26 @@
+$primary-bg: rgba(124, 115, 115, 0.562);
+
 * {
     margin: 0;
     padding: 0;
-    border: 2px solid red;
+    // border: 2px solid red;
     scroll-behavior: smooth;
 }
 
-header {
+.intro-container {
     height: 70vh;
+    margin-top: 5rem;
+}
+
+nav {
+    background-color: $primary-bg;
+    a {
+        color: black!important;
+    }
+}
+
+form {
+    border: 2px solid red;
+    border-radius: 25px;
+    padding: 1rem;
 }

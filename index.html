@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kristoffer Heiskanen">
     <title>Portfolio</title>
     <!-- materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -28,60 +29,83 @@
     <main>
 
         <!-- INTRODUCTIOM SECTION -->
-        <div class="row" id="intro">
-            <div class="col s12 m4 offset-m2">
-                <img src="">IMG CONTAINER
-            </div>
-            <div class="col s12 m4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque ducimus distinctio expedita at praesentium dolorem repellat accusamus consequuntur quasi natus quis quisquam magnam, ea consequatur officiis alias ad suscipit quia?
+
+         <div class="container intro-container">        
+            <div class="row" id="intro">
+                <div class="col s12 m4 offset-m2">
+                    <img src="">IMG CONTAINER
+                </div>
+                <div class="col s12 m4">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque ducimus distinctio expedita at praesentium dolorem repellat accusamus consequuntur quasi natus quis quisquam magnam, ea consequatur officiis alias ad suscipit quia?
+                </div>
             </div>
         </div>
+
         <!-- INTRODUCTIOM SECTION -->   
 
         <!-- SKILLS/EDUCATION SECTION -->
-        <div class="row" id="skills">
-            <div class="col s12 m4 offset-m2">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ex eum tenetur, rerum perferendis quasi quia beatae cupiditate minima porro cumque earum, in voluptates. Delectus tenetur doloremque perspiciatis beatae sequi.
-            </div>
-            <div class="col s12 m4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum praesentium quia perspiciatis facilis sint fugit labore quod, repellendus amet! Non alias laboriosam possimus ab veritatis rem numquam, quas ipsa reiciendis!
+
+        <div class="container">    
+            <div class="row" id="skills">
+                <div class="col s12 m4 offset-m2">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ex eum tenetur, rerum perferendis quasi quia beatae cupiditate minima porro cumque earum, in voluptates. Delectus tenetur doloremque perspiciatis beatae sequi.
+                </div>
+                <div class="col s12 m4">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum praesentium quia perspiciatis facilis sint fugit labore quod, repellendus amet! Non alias laboriosam possimus ab veritatis rem numquam, quas ipsa reiciendis!
+                </div>
             </div>
         </div>
         <!-- SKILLS/EDUCATION SECTION -->
 
         <!-- PROJECTS SECTION -->
-            
-        <div class="row" id="projects">
-            <div class="col s12 m8 offset-m2">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex odio adipisci, dolorem odit iusto nihil blanditiis mollitia maxime, similique error quam laudantium autem libero doloribus labore tempore deleniti sapiente reprehenderit.
+        <div class="container">       
+            <div class="row" id="projects">
+                <div class="col s12 m8 offset-m2">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex odio adipisci, dolorem odit iusto nihil blanditiis mollitia maxime, similique error quam laudantium autem libero doloribus labore tempore deleniti sapiente reprehenderit.
+                </div>
             </div>
         </div>
 
         <!-- PROJECTS SECTION -->
 
         <!-- CONTACT SECTION -->
-            <div class="row" id="contact">
-                <div class="col s12">
-                    <div class="row">
-                        <div class="col s12 m8 offset-m2"> 
-                            <form action="">
-            
-                                <label for="firstname">First Name</label>
-                                <input type="text" id="firstname" name="firstname" placeholder="Your name..">
-                            
-                                <label for="lastname">Last Name</label>
-                                <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
-                            
-                                <label for="subject">Subject</label>
-                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                            
-                                <input type="submit" value="Submit">
-                            
-                              </form>
-                        </div>
-                    </div>
+        <div class="container"> 
+            <div class="row">
+                <div class="col s12 s8 offset-m2">
+                    <h1 class="text-center">Contact Me</h1>
                 </div>
             </div>
+            <div class="row" id="contact">
+                <div class="col s12 m8 offset-m2 contact">
+                    <form action="">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="name" type="text" class="validate">
+                                <label for="name">Name</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                              <textarea id="textarea1" class="materialize-textarea"></textarea>
+                              <label for="textarea1">Textarea</label>
+                            </div>
+                        </div>
+                        <div class="row center-align">
+                            <input type="submit" value="Send">
+                        </div>
+
+                      </form>
+                </div>
+            </div>
+        </div>
         <!-- CONTACT SECTION -->
 
     </main>
@@ -91,24 +115,27 @@
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <h5 class="white-text">Contact Info</h5>
+              <p>Email: <a href="mailto:kristoffer-heiskanen@hotmail.com">Kristoffer-heiskanen@hotmail.com</a></p>
             </div>
             <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
+              <h5 class="white-text">Social</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                <li><a href="https://github.com/Kagebounshin/Kagebounshin" target="_blank" rel="noopener"
+                    aria-label="Link To GitHub">
+                    <i class="fab fa-github-square"></i>
+                </a></li>
+                <li><a href="https://se.linkedin.com/in/kristoffer-heiskanen-390739204" target="_blank"
+                        rel="noopener" aria-label="Link To	LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2014 Kagebounshin
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            @ <span id="copyright"></span> Kagebounshin
           </div>
         </div>
       </footer>
@@ -116,7 +143,9 @@
     <!-- FOOTER -->
 
     <!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/0030311fd7.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="resources/js/script.js"></script>
+    <script src="./resources/js/script.js"></script>
+
 </body>
 </html>
