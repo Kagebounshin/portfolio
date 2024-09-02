@@ -8,8 +8,10 @@
   height: 70vh;
   margin-top: 5rem;
 }
-.intro-container ul {
-  display: inline-flex;
+.intro-container i {
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding-right: 1rem;
 }
 
 .contact-container {
@@ -20,11 +22,35 @@ nav {
   background-color: rgba(124, 115, 115, 0.562);
 }
 nav a {
+  font-size: 1.8rem;
   color: black !important;
+  margin-left: 4rem;
+  font-weight: 500;
+}
+nav .nav-extended {
+  height: auto;
+  box-shadow: none;
+}
+nav a:hover {
+  background-color: transparent !important;
+  color: red !important;
+  text-decoration: underline;
+  transition: 0.2s ease;
 }
 
 form {
   border: 2px solid red;
   border-radius: 25px;
   padding: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #1f1f1f;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s ease-out;
+  cursor: pointer;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */

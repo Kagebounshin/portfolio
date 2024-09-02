@@ -12,7 +12,7 @@
 <body>
     <!-- HEADER -->
     <header>
-        <nav>
+        <nav class="nav-extended">
             <div class="nav-wrapper">
             <!-- <a href="#intro" class="brand-logo right">KH</a> -->
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">menu</a>
@@ -41,9 +41,11 @@
          <div class="container intro-container">        
             <div class="row" id="intro">
                 <div class="col s12 m4 offset-m2 l5 offset-l1">
-                    <h1>Hi, I'm Kristoffer</h1>
-                    <p>A Fullstack Developer looking for a job.</p>
-                    <p>Be the first one to hire me!</p>
+                    <h1>Hi, I'm <span>Kristoffer</span></h1>
+                    <p>A Fullstack Developer looking for a job.
+                        Be the first one to hire me!
+                    </p>
+                <div class="social-icons">
                     <ul>
                         <li><a href="https://github.com/Kagebounshin/Kagebounshin" target="_blank" rel="noopener"
                             aria-label="Link To GitHub">
@@ -54,9 +56,11 @@
                                 <i class="fab fa-linkedin"></i>
                         </a></li>
                     </ul>
-                    <br>
-                    <button>Hire</button> 
-                    <button>Contact</button>
+                </div>
+                    <div class="btn-group">
+                        <a href="mailto:kristoffer-heiskanen@hotmail.com" class="btn">Hire</a> 
+                        <a href="#contact" class="btn">Contact</a>
+                    </div>   
                 </div>
 
                 <div class="col s12 m4 l5">
@@ -123,7 +127,7 @@
                             </div>
                         </div>
                         <div class="row center-align">
-                            <input type="submit" value="Send">
+                            <input type="submit" value="Send" class="btn">
                         </div>
 
                       </form>
