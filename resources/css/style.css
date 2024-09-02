@@ -4,38 +4,62 @@
   scroll-behavior: smooth;
 }
 
-.intro-container {
-  height: 70vh;
-  margin-top: 5rem;
-}
-.intro-container i {
-  font-size: 2rem;
-  margin-top: 1rem;
-  padding-right: 1rem;
-}
-
-.contact-container {
-  margin-bottom: 5rem;
-}
-
 nav {
   background-color: rgba(124, 115, 115, 0.562);
 }
 nav a {
+  height: 48px;
   font-size: 1.8rem;
   color: black !important;
-  margin-left: 4rem;
   font-weight: 500;
+  margin-bottom: 0rem;
+  border-bottom: 3px solid transparent;
+}
+nav .brand-logo {
+  margin-left: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 nav .nav-extended {
   height: auto;
   box-shadow: none;
 }
-nav a:hover {
+nav ul a {
+  margin-right: 1rem;
+  padding: 0px;
+}
+nav ul a:hover {
   background-color: transparent !important;
-  color: red !important;
-  text-decoration: underline;
-  transition: 0.2s ease;
+  border-bottom: 3px solid red;
+  transition: 0.1s ease-in-out;
+}
+
+.intro-container {
+  height: 100vh;
+  margin-top: 3rem;
+}
+.intro-container h1 {
+  font-size: 5rem;
+}
+.intro-container p {
+  font-size: 1.5rem;
+}
+.intro-container .social-icons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.intro-container ul {
+  display: inline-flex;
+}
+.intro-container ul i {
+  font-size: 2.5rem;
+  padding-right: 0.5rem;
+}
+
+.contact-container {
+  margin-bottom: 5rem;
 }
 
 form {
@@ -44,13 +68,34 @@ form {
   padding: 1rem;
 }
 
-.btn {
-  text-decoration: none;
-  color: white;
-  background-color: #1f1f1f;
+.primary-btn {
   text-align: center;
   letter-spacing: 0.5px;
   transition: background-color 0.2s ease-out;
   cursor: pointer;
   font-weight: 600;
+  border-radius: 1.5rem;
+  box-shadow: none;
+  height: 40px;
+  color: red;
+  background-color: white;
+  border: 2px solid red;
+}
+
+.secoundary-btn {
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s ease-out;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 1.5rem;
+  box-shadow: none;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+}
+
+.btn-group a:hover {
+  background-color: red;
+  box-shadow: none;
 }/*# sourceMappingURL=style.css.map */
