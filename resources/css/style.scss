@@ -12,8 +12,13 @@ $tertiary-color: black;
     cursor: pointer;
     font-weight: 600;
     border-radius: 1.5rem;
-    box-shadow: none;
     height: 40px;
+}
+
+@mixin social-icons {
+    font-size: 2.5rem;
+    padding-right: .5rem;
+    color: $primary-color;
 }
 
 * {
@@ -83,9 +88,7 @@ nav {
     ul {
         display: inline-flex;
         i {
-            font-size: 2.5rem;
-            padding-right: .5rem;
-            color: $primary-color;
+            @include social-icons;
         } 
     }
     .btn-group {
@@ -117,6 +120,10 @@ nav {
         padding: 1rem;
         box-shadow: 0px 0px 25px 0px rgba(33,192,171,1);
         margin-bottom: 4rem;
+        input,
+        textarea {
+            color: $secoundary-color
+        }
     }
 }
 
@@ -126,25 +133,25 @@ nav {
 .primary-btn {
     @include primary-btn;
     color: $secoundary-color;
-    background-color: white;
+    background-color: $primary-bg;
     border: 2px solid $secoundary-color;
 }
 
 .secoundary-btn {
     @include primary-btn;
-    color: rgb(255, 255, 255);
+    color: $tertiary-color;
     background-color: $secoundary-bg;
     border: 2px solid transparent;
 }
 
 .primary-btn:hover {
     background-color: $secoundary-bg;
-    color: $primary-color;
+    color: $tertiary-color;
     box-shadow: none;
 }
 
 .secoundary-btn:hover {
-    background-color: $tertiary-bg;
+    background-color: $primary-bg;
     color: $secoundary-color;
     border: 2px solid $secoundary-color;
 }
@@ -152,10 +159,24 @@ nav {
 // FOOTER CONTENT
 
 .page-footer {
+    padding-top: 3rem;
+    text-align: center;
     background-color: $secoundary-bg!important;
     a {
         color: $tertiary-color!important;
         display: inline-flex;
+    }
+    ul {
+        display: inline-flex;
+        i {
+            @include social-icons;
+        }
+    }
+
+    .footer-links {
+        li {
+            margin: .5rem;
+        }
     }
 
 }
