@@ -95,17 +95,31 @@ nav {
     }
 }
 
+.skills-container {
+    min-height: 100vh;
+
+}
+
+.projects-container {
+    min-height: 100vh;
+    
+}
+
 .contact-container {
+    min-height: 100vh;
     margin-bottom: 5rem;
+    h1 {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    form {
+        border-radius: 25px;
+        padding: 1rem;
+        box-shadow: 0px 0px 25px 0px rgba(33,192,171,1);
+        margin-bottom: 4rem;
+    }
 }
 
-
-
-form {
-    border: 2px solid $secoundary-color;
-    border-radius: 25px;
-    padding: 1rem;
-}
 
 // BUTTONS
 
@@ -123,21 +137,19 @@ form {
     border: 2px solid transparent;
 }
 
-
-.btn-group {
-    .primary-btn:hover {
-        background-color: $secoundary-bg;
-        color: $primary-color;
-        box-shadow: none;
-    }
-    .secoundary-btn:hover {
-        background-color: $tertiary-bg;
-        color: $secoundary-color;
-        border: 2px solid $secoundary-color;
-    }
+.primary-btn:hover {
+    background-color: $secoundary-bg;
+    color: $primary-color;
+    box-shadow: none;
 }
 
-//
+.secoundary-btn:hover {
+    background-color: $tertiary-bg;
+    color: $secoundary-color;
+    border: 2px solid $secoundary-color;
+}
+
+// FOOTER CONTENT
 
 .page-footer {
     background-color: $secoundary-bg!important;
