@@ -1,5 +1,6 @@
 $primary-bg: rgb(0, 0, 0);
 $secoundary-bg: rgb(33, 192, 171);
+$tertiary-bg: white;
 $primary-color: white;
 $secoundary-color:rgb(33, 192, 171);
 $tertiary-color: black;
@@ -87,6 +88,11 @@ nav {
             color: $primary-color;
         } 
     }
+    .btn-group {
+        a {
+            margin-right: .5rem;
+        }
+    }
 }
 
 .contact-container {
@@ -114,13 +120,20 @@ form {
     @include primary-btn;
     color: rgb(255, 255, 255);
     background-color: $secoundary-bg;
+    border: 2px solid transparent;
 }
 
 
 .btn-group {
-    a:hover {
-        background-color: red;
+    .primary-btn:hover {
+        background-color: $secoundary-bg;
+        color: $primary-color;
         box-shadow: none;
+    }
+    .secoundary-btn:hover {
+        background-color: $tertiary-bg;
+        color: $secoundary-color;
+        border: 2px solid $secoundary-color;
     }
 }
 
@@ -130,6 +143,7 @@ form {
     background-color: $secoundary-bg!important;
     a {
         color: $tertiary-color!important;
+        display: inline-flex;
     }
 
 }
