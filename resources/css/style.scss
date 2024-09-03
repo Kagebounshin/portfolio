@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 $primary-bg: rgb(0, 0, 0);
 $secoundary-bg: rgb(33, 192, 171);
 $tertiary-bg: white;
@@ -31,6 +33,7 @@ $tertiary-color: black;
 body {
     background-color: $primary-bg;
     color: $primary-color;
+    font-family: 'Oswald', sans-serif;
 }
 
 // NAVBAR
@@ -47,10 +50,13 @@ nav {
 
     .brand-logo {
         margin-left: 2rem;
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 600;
         cursor: pointer;
         transition: .3s ease;
+        span {
+            color: $secoundary-color;
+        }
     }
 
     .nav-extended {
