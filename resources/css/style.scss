@@ -102,17 +102,27 @@ nav {
             margin-right: .5rem;
         }
     }
+
+    .intro-img {
+        border-radius: 50%;
+        margin-top: 4rem;
+    }
+    img {
+        width: 32vw;
+        border-radius: 50%;
+        box-shadow: 0 0 25px $secoundary-bg;
+    }
 }
 
-.skills-container {
-    min-height: 100vh;
+// .skills-container {
+//     min-height: 100vh;
+//     margin-top: 3rem;
+// }
 
-}
-
-.projects-container {
-    min-height: 100vh;
+// .projects-container {
+//     min-height: 100vh;
     
-}
+// }
 
 .contact-container {
     min-height: 100vh;
@@ -167,13 +177,14 @@ nav {
 .page-footer {
     padding-top: 3rem;
     text-align: center;
-    background-color: $secoundary-bg!important;
+    background-color: $secoundary-bg;
     a {
         color: $tertiary-color!important;
         display: inline-flex;
     }
     ul {
         display: inline-flex;
+        padding-bottom: 2rem;
         i {
             @include social-icons;
         }
@@ -184,5 +195,4 @@ nav {
             margin: .5rem;
         }
     }
-
 }

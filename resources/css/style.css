@@ -71,13 +71,14 @@ nav ul a:hover {
 .intro-container .btn-group a {
   margin-right: 0.5rem;
 }
-
-.skills-container {
-  min-height: 100vh;
+.intro-container .intro-img {
+  border-radius: 50%;
+  margin-top: 4rem;
 }
-
-.projects-container {
-  min-height: 100vh;
+.intro-container img {
+  width: 32vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgb(33, 192, 171);
 }
 
 .contact-container {
@@ -140,7 +141,7 @@ nav ul a:hover {
 .page-footer {
   padding-top: 3rem;
   text-align: center;
-  background-color: rgb(33, 192, 171) !important;
+  background-color: rgb(33, 192, 171);
 }
 .page-footer a {
   color: black !important;
@@ -148,6 +149,7 @@ nav ul a:hover {
 }
 .page-footer ul {
   display: inline-flex;
+  padding-bottom: 2rem;
 }
 .page-footer ul i {
   font-size: 2.5rem;
