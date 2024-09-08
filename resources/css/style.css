@@ -120,15 +120,21 @@ nav ul a:hover {
   text-align: center;
   margin-bottom: 4rem;
 }
+.contact-container h1 span {
+  border-bottom: 2px solid #DAC75B;
+}
 .contact-container form {
   border-radius: 25px;
   padding: 1rem;
-  box-shadow: 0px 0px 25px 0px #DAC75B;
   margin-bottom: 4rem;
 }
 .contact-container form input,
 .contact-container form textarea {
   color: #DAC75B;
+}
+.contact-container form label.active,
+.contact-container form input::after {
+  color: #FEFFEA !important;
 }
 
 .primary-btn {

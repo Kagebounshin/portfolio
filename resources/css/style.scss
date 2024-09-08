@@ -151,15 +151,22 @@ nav {
     h1 {
         text-align: center;
         margin-bottom: 4rem;
+        span {
+            border-bottom: 2px solid $secoundary-color;
+        }
     }
     form {
         border-radius: 25px;
         padding: 1rem;
-        box-shadow: 0px 0px 25px 0px $secoundary-bg;
+        // box-shadow: 0px 0px 25px 0px $secoundary-bg;
         margin-bottom: 4rem;
         input,
         textarea {
             color: $secoundary-color
+        }
+        label.active,
+        input::after {
+            color: #FEFFEA!important;
         }
     }
 }
