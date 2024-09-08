@@ -54,6 +54,13 @@ nav ul a:hover {
 .intro-container h1 {
   font-size: 5rem;
 }
+.intro-container h1 span {
+  color: #DAC75B;
+  border-bottom: 2px solid #FEFFEA;
+}
+.intro-container h2 {
+  font-size: 2rem;
+}
 .intro-container p {
   font-size: 1.5rem;
 }
