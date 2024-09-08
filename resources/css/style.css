@@ -6,18 +6,19 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0);
-  color: white;
+  background-color: #545249;
+  color: #FEFFEA;
   font-family: "Oswald", sans-serif;
 }
 
 nav {
-  background-color: rgb(0, 0, 0);
+  background-color: #545249;
+  box-shadow: none !important;
 }
 nav a {
   height: 48px;
   font-size: 1.8rem;
-  color: white;
+  color: #FEFFEA;
   font-weight: 500;
   margin-bottom: 0rem;
   border-bottom: 3px solid transparent;
@@ -30,7 +31,7 @@ nav .brand-logo {
   transition: 0.3s ease;
 }
 nav .brand-logo span {
-  color: rgb(33, 192, 171);
+  color: #DAC75B;
 }
 nav .nav-extended {
   height: auto;
@@ -42,7 +43,7 @@ nav ul a {
 }
 nav ul a:hover {
   background-color: transparent !important;
-  border-bottom: 3px solid rgb(33, 192, 171);
+  border-bottom: 3px solid #DAC75B;
   transition: 0.1s ease-in-out;
 }
 
@@ -66,7 +67,7 @@ nav ul a:hover {
 .intro-container ul i {
   font-size: 2.5rem;
   padding-right: 0.5rem;
-  color: white;
+  color: #FEFFEA;
 }
 .intro-container .btn-group a {
   margin-right: 0.5rem;
@@ -80,7 +81,7 @@ nav ul a:hover {
      object-fit: cover;
   width: 32vw;
   border-radius: 50%;
-  box-shadow: 0 0 25px rgb(33, 192, 171);
+  box-shadow: 0 0 25px #DAC75B;
 }
 
 .skills-container {
@@ -89,7 +90,7 @@ nav ul a:hover {
 }
 .skills-container .card-panel {
   margin-bottom: 0rem;
-  background-color: rgb(33, 192, 171);
+  background-color: #DAC75B;
   border-radius: 20px;
   border: 3px solid transparent;
 }
@@ -101,10 +102,9 @@ nav ul a:hover {
   line-height: 1.7;
 }
 .skills-container .card-panel:hover {
-  box-shadow: 0 0 25px rgb(33, 192, 171);
-  background-color: white;
-  color: black;
-  border: 3px solid rgb(33, 192, 171);
+  box-shadow: 0 0 25px #DAC75B;
+  background-color: #FEFFEA;
+  color: #545249;
   transform: scale(1.03);
 }
 
@@ -123,12 +123,12 @@ nav ul a:hover {
 .contact-container form {
   border-radius: 25px;
   padding: 1rem;
-  box-shadow: 0px 0px 25px 0px rgb(33, 192, 171);
+  box-shadow: 0px 0px 25px 0px #DAC75B;
   margin-bottom: 4rem;
 }
 .contact-container form input,
 .contact-container form textarea {
-  color: rgb(33, 192, 171);
+  color: #DAC75B;
 }
 
 .primary-btn {
@@ -139,9 +139,9 @@ nav ul a:hover {
   font-weight: 600;
   border-radius: 1.5rem;
   height: 40px;
-  color: rgb(33, 192, 171);
-  background-color: rgb(0, 0, 0);
-  border: 2px solid rgb(33, 192, 171);
+  color: #DAC75B;
+  background-color: #545249;
+  border: 2px solid #DAC75B;
 }
 
 .secoundary-btn {
@@ -152,30 +152,32 @@ nav ul a:hover {
   font-weight: 600;
   border-radius: 1.5rem;
   height: 40px;
-  color: black;
-  background-color: rgb(33, 192, 171);
+  color: #545249;
+  background-color: #DAC75B;
   border: 2px solid transparent;
 }
 
-.primary-btn:hover {
-  background-color: rgb(33, 192, 171);
-  color: black;
+.primary-btn:hover,
+.primary-btn:active {
+  background-color: #DAC75B;
+  color: #545249;
   box-shadow: none;
 }
 
-.secoundary-btn:hover {
-  background-color: rgb(0, 0, 0);
-  color: rgb(33, 192, 171);
-  border: 2px solid rgb(33, 192, 171);
+.secoundary-btn:hover,
+.secoundary-btn:active {
+  background-color: #545249;
+  color: #DAC75B;
+  border: 2px solid #DAC75B;
 }
 
 .page-footer {
   padding-top: 3rem;
   text-align: center;
-  background-color: rgb(33, 192, 171);
+  background-color: #545249;
 }
 .page-footer a {
-  color: black !important;
+  color: #DAC75B !important;
   display: inline-flex;
 }
 .page-footer ul {
@@ -185,7 +187,7 @@ nav ul a:hover {
 .page-footer ul i {
   font-size: 2.5rem;
   padding-right: 0.5rem;
-  color: white;
+  color: #FEFFEA;
 }
 .page-footer .footer-links li {
   margin: 0.5rem;
