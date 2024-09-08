@@ -43,7 +43,30 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-// NAVBAR
+// HEADER
+
+header {
+    .sidenav {
+        background-color: $primary-bg;
+        a {
+            height: 48px;
+            font-size: 1.8rem;
+            color: $primary-color;
+            font-weight: 500;
+            margin-bottom: 0rem;
+            border-bottom: 3px solid transparent;
+            padding: 0;
+            margin: 1rem 55% 0 2rem;
+        }
+        a:hover,
+        a:active {
+            background-color: transparent!important;
+            color: $secoundary-color;
+            border-bottom: 3px solid $secoundary-color;
+            transition: .1s ease-in-out;
+        }
+    }
+}
 
 nav {
     background-color: $primary-bg;
