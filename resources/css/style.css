@@ -131,9 +131,14 @@ nav ul a:hover {
 .contact-container form textarea {
   color: #DAC75B;
 }
-.contact-container form label.active,
-.contact-container form input::after {
+.contact-container form label.active {
   color: #FEFFEA !important;
+}
+.contact-container form input[type=text]:not(browser-default):focus:not([readonly]),
+.contact-container form input[type=email]:not(browser-default):focus:not([readonly]),
+.contact-container form textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #DAC75B;
+  box-shadow: 0 1px 0 0 #DAC75B;
 }
 
 .primary-btn {
