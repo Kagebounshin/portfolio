@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+// COLORS
+
 $primary-bg: #545249;
 $secoundary-bg: #DAC75B;
 $tertiary-bg: #FEFFEA;
 $primary-color: #FEFFEA;
 $secoundary-color:#DAC75B;
 $tertiary-color: #545249;
+
+
+// MIXIN
 
 @mixin primary-btn {
     text-align: center;
@@ -23,6 +28,8 @@ $tertiary-color: #545249;
     color: $primary-color;
 }
 
+//BODY
+
 * {
     margin: 0;
     padding: 0;
@@ -37,6 +44,7 @@ body {
 }
 
 // NAVBAR
+
 nav {
     background-color: $primary-bg;
     box-shadow: none!important;
@@ -79,6 +87,7 @@ nav {
 
 
 // CONTAINERS
+
 .intro-container {
     height: 100vh;
     margin-top: 3rem;
@@ -239,4 +248,18 @@ nav {
             margin: .5rem;
         }
     }
+}
+
+// WEBKITS
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $secoundary-bg;
+}
+
+::-webkit-scrollbar-track {
+    background-color: $tertiary-bg;
 }

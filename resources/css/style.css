@@ -212,4 +212,16 @@ nav ul a:hover {
 }
 .page-footer .footer-links li {
   margin: 0.5rem;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #DAC75B;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #FEFFEA;
 }/*# sourceMappingURL=style.css.map */
