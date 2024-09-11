@@ -6,13 +6,13 @@
 }
 
 body {
-  background-color: #545249;
+  background-color: #3E3D36;
   color: #FEFFEA;
   font-family: "Oswald", sans-serif;
 }
 
 header .sidenav {
-  background-color: #545249;
+  background-color: #3E3D36;
 }
 header .sidenav a {
   height: 48px;
@@ -33,7 +33,7 @@ header .sidenav a:active {
 }
 
 nav {
-  background-color: #545249;
+  background-color: #3E3D36;
   box-shadow: none !important;
 }
 nav a {
@@ -45,9 +45,18 @@ nav a {
   border-bottom: 3px solid transparent;
 }
 nav .brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #FEFFEA;
+  color: #3E3D36;
   margin-left: 2rem;
-  font-size: 2rem;
   font-weight: 600;
+  font-size: 1.5rem;
+  width: 45px;
+  height: 45px;
+  margin-top: 1rem;
   cursor: pointer;
   transition: 0.3s ease;
 }
@@ -68,12 +77,18 @@ nav ul a:hover {
   transition: 0.1s ease-in-out;
 }
 
+.container,
+.row {
+  border: 2px solid red;
+}
+
 .intro-container {
   height: 100vh;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 .intro-container h1 {
   font-size: 5rem;
+  margin-top: 0px;
 }
 .intro-container h1 span {
   color: #DAC75B;
@@ -102,14 +117,12 @@ nav ul a:hover {
 }
 .intro-container .intro-img {
   border-radius: 50%;
-  margin-top: 4rem;
 }
 .intro-container img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 32vw;
-  border-radius: 50%;
-  box-shadow: 0 0 25px #DAC75B;
+  max-width: 100%;
+  height: auto;
 }
 
 .education-container {
@@ -125,6 +138,7 @@ nav ul a:hover {
   background-color: #DAC75B;
   border-radius: 20px;
   border: 3px solid transparent;
+  height: 100%;
 }
 .skills-container .card-panel h2 {
   font-size: 2rem;
@@ -135,7 +149,7 @@ nav ul a:hover {
 }
 .skills-container .card-panel:hover {
   background-color: #FEFFEA;
-  color: #545249;
+  color: #3E3D36;
   transform: scale(1.03);
 }
 
@@ -182,7 +196,7 @@ nav ul a:hover {
   border-radius: 1.5rem;
   height: 40px;
   color: #DAC75B;
-  background-color: #545249;
+  background-color: #3E3D36;
   border: 2px solid #DAC75B;
 }
 
@@ -194,7 +208,7 @@ nav ul a:hover {
   font-weight: 600;
   border-radius: 1.5rem;
   height: 40px;
-  color: #545249;
+  color: #3E3D36;
   background-color: #DAC75B;
   border: 2px solid transparent;
 }
@@ -202,13 +216,13 @@ nav ul a:hover {
 .primary-btn:hover,
 .primary-btn:active {
   background-color: #DAC75B;
-  color: #545249;
+  color: #3E3D36;
   box-shadow: none;
 }
 
 .secoundary-btn:hover,
 .secoundary-btn:active {
-  background-color: #545249;
+  background-color: #3E3D36;
   color: #DAC75B;
   border: 2px solid #DAC75B;
 }
@@ -216,7 +230,7 @@ nav ul a:hover {
 .page-footer {
   padding-top: 3rem;
   text-align: center;
-  background-color: #545249;
+  background-color: #3E3D36;
 }
 .page-footer a {
   color: #DAC75B !important;

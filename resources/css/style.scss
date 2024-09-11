@@ -2,12 +2,12 @@
 
 // COLORS
 
-$primary-bg: #545249;
+$primary-bg: #3E3D36;
 $secoundary-bg: #DAC75B;
 $tertiary-bg: #FEFFEA;
 $primary-color: #FEFFEA;
 $secoundary-color:#DAC75B;
-$tertiary-color: #545249;
+$tertiary-color: #3E3D36;
 
 
 // MIXIN
@@ -81,9 +81,18 @@ nav {
     }
 
     .brand-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: $tertiary-bg;
+        color: $tertiary-color;
         margin-left: 2rem;
-        font-size: 2rem;
         font-weight: 600;
+        font-size: 1.5rem;
+        width: 45px;
+        height: 45px;
+        margin-top: 1rem;
         cursor: pointer;
         transition: .3s ease;
         span {
@@ -111,11 +120,17 @@ nav {
 
 // CONTAINERS
 
+.container,
+.row {
+    border: 2px solid red;
+}
+
 .intro-container {
     height: 100vh;
-    margin-top: 3rem;
+    margin-top: 5rem;
     h1 {
         font-size: 5rem;
+        margin-top: 0px;
         span {
             color: $secoundary-color;
             border-bottom: 2px solid $primary-color;
@@ -145,13 +160,11 @@ nav {
 
     .intro-img {
         border-radius: 50%;
-        margin-top: 4rem;
     }
     img {
         object-fit: cover;
-        width: 32vw;
-        border-radius: 50%;
-        box-shadow: 0 0 25px $secoundary-bg;
+        max-width: 100%;
+        height: auto;
     }
 }
 
@@ -167,6 +180,7 @@ nav {
         background-color: $secoundary-bg;
         border-radius: 20px;
         border: 3px solid transparent;
+        height: 100%;
         h2 {
             font-size: 2rem;
         }
