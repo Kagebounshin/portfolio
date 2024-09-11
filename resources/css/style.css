@@ -132,14 +132,20 @@ nav ul a:hover {
 .skills-container .card-1 .block-divider,
 .skills-container .card-2 .block-divider {
   width: 70%;
-  height: 0.3rem;
+  height: 2px;
   border: 0;
   background-color: #3E3D36;
   margin: 0 auto;
   border-radius: 25px;
+  margin-bottom: 2rem;
+}
+.skills-container .card-1 h2,
+.skills-container .card-2 h2 {
+  padding-bottom: 1rem;
 }
 .skills-container .card-1 p,
 .skills-container .card-2 p {
+  padding-bottom: 2rem;
   font-size: 1.2rem;
   line-height: 1.7rem;
 }
