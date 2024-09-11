@@ -3,10 +3,10 @@
 // COLORS
 
 $primary-bg: #3E3D36;
-$secoundary-bg: #DAC75B;
+$secoundary-bg: #ffc927;
 $tertiary-bg: #FEFFEA;
 $primary-color: #FEFFEA;
-$secoundary-color:#DAC75B;
+$secoundary-color:#ffc927;
 $tertiary-color: #3E3D36;
 
 
@@ -120,10 +120,10 @@ nav {
 
 // CONTAINERS
 
-.container,
-.row {
-    border: 2px solid red;
-}
+// .container,
+// .row {
+//     border: 2px solid red;
+// }
 
 .intro-container {
     margin-top: 5rem;
@@ -168,26 +168,34 @@ nav {
 }
 
 .skills-container {
-    min-height: 100vh;
+    min-height: 80vh;
     margin-top: 5rem;
-    .card-panel {
-        margin-bottom: 0rem;
-        background-color: $secoundary-bg;
-        border-radius: 20px;
-        border: 3px solid transparent;
-        height: 100%;
+    color: $tertiary-color;
+    .card-1,
+    .card-2 {
+        padding: 0;
+        text-align: center;
+        .block-divider {
+            width: 70%;
+            height: .3rem;
+            border: 0;
+            background-color: $primary-bg;
+            margin: 0 auto;
+            border-radius: 25px;
+        }
         h2 {
-            font-size: 2rem;
         }
         p {
-            margin-bottom: 3rem;
-            line-height: 1.7;
+            font-size: 1.2rem;
+            line-height: 1.7rem;
         }
+    }   
+    .card-1 {
+        background-color: $secoundary-bg;
     }
-    .card-panel:hover {
+
+    .card-2 {
         background-color: $tertiary-bg;
-        color: $tertiary-color;
-        transform: scale(1.03);
     }
 }
 

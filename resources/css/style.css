@@ -27,8 +27,8 @@ header .sidenav a {
 header .sidenav a:hover,
 header .sidenav a:active {
   background-color: transparent !important;
-  color: #DAC75B;
-  border-bottom: 3px solid #DAC75B;
+  color: #ffc927;
+  border-bottom: 3px solid #ffc927;
   transition: 0.1s ease-in-out;
 }
 
@@ -61,7 +61,7 @@ nav .brand-logo {
   transition: 0.3s ease;
 }
 nav .brand-logo span {
-  color: #DAC75B;
+  color: #ffc927;
 }
 nav .nav-extended {
   height: auto;
@@ -73,13 +73,8 @@ nav ul a {
 }
 nav ul a:hover {
   background-color: transparent !important;
-  border-bottom: 3px solid #DAC75B;
+  border-bottom: 3px solid #ffc927;
   transition: 0.1s ease-in-out;
-}
-
-.container,
-.row {
-  border: 2px solid red;
 }
 
 .intro-container {
@@ -90,7 +85,7 @@ nav ul a:hover {
   margin-top: 0px;
 }
 .intro-container h1 span {
-  color: #DAC75B;
+  color: #ffc927;
   border-bottom: 2px solid #FEFFEA;
 }
 .intro-container h2 {
@@ -125,27 +120,34 @@ nav ul a:hover {
 }
 
 .skills-container {
-  min-height: 100vh;
+  min-height: 80vh;
   margin-top: 5rem;
-}
-.skills-container .card-panel {
-  margin-bottom: 0rem;
-  background-color: #DAC75B;
-  border-radius: 20px;
-  border: 3px solid transparent;
-  height: 100%;
-}
-.skills-container .card-panel h2 {
-  font-size: 2rem;
-}
-.skills-container .card-panel p {
-  margin-bottom: 3rem;
-  line-height: 1.7;
-}
-.skills-container .card-panel:hover {
-  background-color: #FEFFEA;
   color: #3E3D36;
-  transform: scale(1.03);
+}
+.skills-container .card-1,
+.skills-container .card-2 {
+  padding: 0;
+  text-align: center;
+}
+.skills-container .card-1 .block-divider,
+.skills-container .card-2 .block-divider {
+  width: 70%;
+  height: 0.3rem;
+  border: 0;
+  background-color: #3E3D36;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+.skills-container .card-1 p,
+.skills-container .card-2 p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+.skills-container .card-1 {
+  background-color: #ffc927;
+}
+.skills-container .card-2 {
+  background-color: #FEFFEA;
 }
 
 .contact-container {
@@ -157,7 +159,7 @@ nav ul a:hover {
   margin-bottom: 4rem;
 }
 .contact-container h1 span {
-  border-bottom: 2px solid #DAC75B;
+  border-bottom: 2px solid #ffc927;
 }
 .contact-container form {
   border-radius: 25px;
@@ -166,7 +168,7 @@ nav ul a:hover {
 }
 .contact-container form input,
 .contact-container form textarea {
-  color: #DAC75B;
+  color: #ffc927;
 }
 .contact-container form label.active {
   color: #FEFFEA !important;
@@ -174,8 +176,8 @@ nav ul a:hover {
 .contact-container form input[type=text]:not(browser-default):focus:not([readonly]),
 .contact-container form input[type=email]:not(browser-default):focus:not([readonly]),
 .contact-container form textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #DAC75B;
-  box-shadow: 0 1px 0 0 #DAC75B;
+  border-bottom: 1px solid #ffc927;
+  box-shadow: 0 1px 0 0 #ffc927;
 }
 
 .primary-btn {
@@ -186,9 +188,9 @@ nav ul a:hover {
   font-weight: 600;
   border-radius: 1.5rem;
   height: 40px;
-  color: #DAC75B;
+  color: #ffc927;
   background-color: #3E3D36;
-  border: 2px solid #DAC75B;
+  border: 2px solid #ffc927;
 }
 
 .secoundary-btn {
@@ -200,13 +202,13 @@ nav ul a:hover {
   border-radius: 1.5rem;
   height: 40px;
   color: #3E3D36;
-  background-color: #DAC75B;
+  background-color: #ffc927;
   border: 2px solid transparent;
 }
 
 .primary-btn:hover,
 .primary-btn:active {
-  background-color: #DAC75B;
+  background-color: #ffc927;
   color: #3E3D36;
   box-shadow: none;
 }
@@ -214,8 +216,8 @@ nav ul a:hover {
 .secoundary-btn:hover,
 .secoundary-btn:active {
   background-color: #3E3D36;
-  color: #DAC75B;
-  border: 2px solid #DAC75B;
+  color: #ffc927;
+  border: 2px solid #ffc927;
 }
 
 .page-footer {
@@ -224,7 +226,7 @@ nav ul a:hover {
   background-color: #3E3D36;
 }
 .page-footer a {
-  color: #DAC75B !important;
+  color: #ffc927 !important;
   display: inline-flex;
 }
 .page-footer ul {
@@ -245,7 +247,7 @@ nav ul a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #DAC75B;
+  background-color: #ffc927;
 }
 
 ::-webkit-scrollbar-track {
