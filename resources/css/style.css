@@ -83,7 +83,6 @@ nav ul a:hover {
 }
 
 .intro-container {
-  height: 100vh;
   margin-top: 5rem;
 }
 .intro-container h1 {
@@ -125,10 +124,6 @@ nav ul a:hover {
   height: auto;
 }
 
-.education-container {
-  min-height: 100vh;
-}
-
 .skills-container {
   min-height: 100vh;
   margin-top: 5rem;
@@ -151,10 +146,6 @@ nav ul a:hover {
   background-color: #FEFFEA;
   color: #3E3D36;
   transform: scale(1.03);
-}
-
-.projects-container {
-  min-height: 100vh;
 }
 
 .contact-container {

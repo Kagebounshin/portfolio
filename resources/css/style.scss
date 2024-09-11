@@ -126,7 +126,6 @@ nav {
 }
 
 .intro-container {
-    height: 100vh;
     margin-top: 5rem;
     h1 {
         font-size: 5rem;
@@ -168,10 +167,6 @@ nav {
     }
 }
 
-.education-container {
-    min-height: 100vh;
-}
-
 .skills-container {
     min-height: 100vh;
     margin-top: 5rem;
@@ -194,11 +189,6 @@ nav {
         color: $tertiary-color;
         transform: scale(1.03);
     }
-}
-
-.projects-container {
-    min-height: 100vh;
-    
 }
 
 .contact-container {
