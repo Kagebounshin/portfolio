@@ -21,7 +21,7 @@ const Navbar = () => {
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-      <div className="hamburger" onClick={toggleMenu}>
+      <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
